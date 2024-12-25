@@ -1,0 +1,53 @@
+/* إعدادات عامة */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: white; /* الخلفية البيضاء */
+    font-family: 'Cairo', sans-serif;
+}
+
+/* خلفية الموجات المتحركة باستخدام Canvas */
+#waveCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* محتوى الموقع */
+.content {
+    position: relative;
+    z-index: 2; /* فوق الموجات */
+    text-align: center;
+    padding-top: 20%;
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+/* زر تسجيل الدخول */
+.login-btn {
+    background-color: #4285F4;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #357ae8;
+}
